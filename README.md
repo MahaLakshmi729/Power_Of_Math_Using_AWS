@@ -6,7 +6,7 @@ The app calculates powers of numbers (`base^exponent`) and stores each calculati
 
 ---
 
-![PowerOFMATH Web App]()
+![PowerOFMATH Web App](https://github.com/MahaLakshmi729/Power_Of_Math_Using_AWS/blob/71334e3852abd7d70811d159fefb753018867f3a/powerofmath.png)
 
 ## 🚀 Features
 
@@ -29,24 +29,6 @@ User → Amplify Frontend → API Gateway → Lambda → DynamoDB
 * **Lambda**: Calculates the power and stores results.
 * **DynamoDB**: Persists calculations with timestamps.
 * **IAM**: Controls access between AWS services.
-
----
-
-## 📂 Project Structure
-
-```
-/frontend
-  ├── index.html              # Minimal HTML UI
-  ├── index_original.html     # Styled version of the UI
-  ├── script.js               # Sends requests to API Gateway
-
-/backend
-  ├── lambda_function.js      # Node.js Lambda handler
-  ├── dynamodb_schema.json    # DynamoDB table definition
-  ├── template.yaml           # SAM/CloudFormation template
-
-README.md
-```
 
 ---
 
@@ -164,3 +146,9 @@ Example IAM policy to attach to Lambda:
 
 ---
 
+## OUTPUT
+
+![PowerOFMATH Web App](https://github.com/MahaLakshmi729/Power_Of_Math_Using_AWS/blob/71334e3852abd7d70811d159fefb753018867f3a/op1.png)
+
+
+![PowerOFMATH Web APP](https://github.com/MahaLakshmi729/Power_Of_Math_Using_AWS/blob/71334e3852abd7d70811d159fefb753018867f3a/op2.png).
